@@ -1,5 +1,6 @@
 from setuptools import setup
 
+
 REQUIRES = [
     'curlify',
     'requests',

@@ -7,6 +7,7 @@ import allure
 import json
 
 
+
 def allure_attach(fn):
     def wrapper(*args, **kwargs):
         body = kwargs.get('json')
